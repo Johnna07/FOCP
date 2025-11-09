@@ -11,7 +11,7 @@ int main() {
     printf("Original Values are");
     printf("a = %d, b = %d\n", a, b);
 
-    // 1️⃣ Using Temporary Variable
+    //  Using Temporary Variable
     temp = a;
     a = b;
     b = temp;
@@ -47,3 +47,4 @@ int main() {
 
     return 0;
 }
+
